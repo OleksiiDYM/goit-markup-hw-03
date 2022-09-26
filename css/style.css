@@ -6,7 +6,20 @@
     --button-color: #2196F3;
     --font-grey: #757575;
     --font-black: #212121;
-    
+    --font-white: #FFFFFF;       
+}
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+ul, ol {
+    margin: 0;
+    padding-left: 0;
+}
+button {
+    cursor: pointer;
+}
+img {
+    display: block;
 }
 
 body {
@@ -20,7 +33,18 @@ body {
     .link {
         text-decoration: none;
     }
+    .container {
+        width: 1170px;
+        padding-left: 15px;
+        padding-right: 15px;
+        outline: 2px solid red;
+        margin: 0 auto;
+    }
     /* ---------HEADER-------- */
+    .header {
+        padding-bottom:25px;
+        padding-top: 24px;
+    }
     .logo-left {
         font-family: 'Raleway', sans-serif;
         font-weight: 700;
@@ -67,8 +91,15 @@ body {
     }
         /* ---------HEADER-------- */
         /* ---------HERO---------- */
+        .hero {
+            padding-top: 200px;
+            padding-bottom: 200px;
+        }
+        
         .hero, .hero-btn {
         background-color: #2F303A;
+        display: block;
+        margin: 0px auto;
         }
     .hero-btn {
         font-family: inherit;        
@@ -78,6 +109,8 @@ body {
         letter-spacing: 0.06em;        
         color: #FFFFFF;
         cursor: pointer;
+        display: block;
+        margin: 0px auto;
     }
     .hero-text {
         font-weight: 900;
@@ -86,15 +119,28 @@ body {
         letter-spacing: 0.06em;
         text-transform: uppercase;        
         color: #FFFFFF;
+        margin-bottom: 30px;
+        max-width: 696px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+                      
+        }
+        
         /* ---------HERO---------- */
         /* ---------HERO2--------- */
-    }
+        .hero2 {
+            padding-top: 54px;
+            
+        }
+    
     .hero2-main {
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.03em;
-        text-transform: uppercase;            
+        text-transform: uppercase;
+        margin-bottom: 10px;            
         color: var(--font-black);
         }               
     .hero2-item {
@@ -105,12 +151,17 @@ body {
         }
         /* ---------HERO2---------- */
         /* ---------ABOUT---------- */
+        .about {
+            padding-top: 94px;
+            padding-bottom: 94px;
+        }
     .about-text {
         font-weight: 700;
         font-size: 36px;
         line-height: 1.17;
         letter-spacing: 0.03em;        
         color: var(--font-black);
+        margin-bottom: 50px;
     }
         /* ---------INFO---------- */
         /* ---------TEAM---------- */       
@@ -120,6 +171,7 @@ body {
         line-height: 1.17;
         letter-spacing: 0.03em;        
         color: var(--font-black);
+        margin-bottom: 50px;
     }     
      
     .team-toptext {
@@ -128,6 +180,8 @@ body {
         line-height: 1.19;             
         letter-spacing: 0.03em;
         color: var(--font-black);
+        margin-top: 30px;
+        margin-bottom: 10px;
     }    
     .team-bottomtext {        
         font-size: 16px;
@@ -153,9 +207,12 @@ body {
         line-height: 1.19;
         letter-spacing: 0.03em;
          color: #FFFFFF;
+         margin-bottom: 20px;
         }
     .footer {
         background-color: #2F303A;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }   
           
     .footer-map {
@@ -168,7 +225,9 @@ body {
         font-size: 14px;
         line-height: 1.71;            
         letter-spacing: 0.03em;        
-        color: rgba(255, 255, 255, 0.6);        
+        color: rgba(255, 255, 255, 0.6);
+        margin-top: 9px;
+        margin-bottom: 9px;        
     }
     
     .footer-tel {        
@@ -192,6 +251,9 @@ body {
         color: var(--font-black);
         cursor: pointer;
     }
+    .infobar-buttons {
+        margin-bottom: 34px;
+    }
              
         /* ---------INFOBAR---------- */
         /* ---------PROJECTS---------- */
@@ -202,6 +264,8 @@ body {
         line-height: 2;               
         letter-spacing: 0.06em;        
         color: var(--font-black);
+        margin-top: 20px;
+        margin-bottom: 4px;
     }
     
     .projects-bottomtext {        
