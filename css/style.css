@@ -43,6 +43,7 @@ body {
     .header {
         padding-bottom:25px;
         padding-top: 24px;
+        border-bottom: 1px solid #000;
     }
     .header-navigation {
         display: flex;
@@ -315,6 +316,7 @@ body {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
+        border-bottom: 1px solid #000;
                 
     }
     .projects-item {
