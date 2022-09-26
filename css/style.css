@@ -34,16 +34,33 @@ body {
         text-decoration: none;
     }
     .container {
-        width: 1200px;
+        width: 1170px;
         padding-left: 15px;
         padding-right: 15px;
-        outline: 2px solid red;
         margin: 0 auto;
     }
     /* ---------HEADER-------- */
     .header {
         padding-bottom:25px;
         padding-top: 24px;
+    }
+    .header-navigation {
+        display: flex;
+    }
+    .header-container {
+        display: flex;
+        align-items: center;
+
+    }
+    .header-list {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+    .header-list2 {
+        display: flex;
+        margin-left: auto;
+        gap: 50px;
     }
     .logo-left {
         font-family: 'Raleway', sans-serif;
@@ -60,6 +77,7 @@ body {
         line-height: 1.19;
         letter-spacing: 0.03em;
         color: var(--font-black);
+        margin-right: 93px;
         }
     .header-link {
         font-weight: 500;
@@ -111,6 +129,13 @@ body {
         cursor: pointer;
         display: block;
         margin: 0px auto;
+        background: #2196F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        min-width: 216px;
+        height: 50px;
+        left: 692px;
+        top: 470px;
     }
     .hero-text {
         font-weight: 900;
@@ -131,7 +156,11 @@ body {
         /* ---------HERO2--------- */
         .hero2 {
             padding-top: 54px;
-            
+        
+        }
+        .hero2-list {
+            display: flex;
+            gap: 30px;
         }
     
     .hero2-main {
@@ -147,13 +176,19 @@ body {
         font-size: 14px;
         line-height: 1.71;                    
         letter-spacing: 0.03em;            
-            color: var(--font-grey);
+        color: var(--font-grey);
+        min-width: 270px;
         }
         /* ---------HERO2---------- */
         /* ---------ABOUT---------- */
         .about {
             padding-top: 94px;
             padding-bottom: 94px;
+        }
+        .about-list {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
         }
     .about-text {
         font-weight: 700;
@@ -162,9 +197,15 @@ body {
         letter-spacing: 0.03em;        
         color: var(--font-black);
         margin-bottom: 50px;
+        text-align: center;
     }
         /* ---------INFO---------- */
-        /* ---------TEAM---------- */       
+        /* ---------TEAM---------- */
+    .team-list {
+        display: flex;
+        gap: 30px;
+        justify-content: flex-end 
+    }           
     .team-maintext {
         font-weight: 700;
         font-size: 36px;
@@ -172,6 +213,8 @@ body {
         letter-spacing: 0.03em;        
         color: var(--font-black);
         margin-bottom: 50px;
+        text-align: center;
+                
     }     
      
     .team-toptext {
@@ -182,12 +225,15 @@ body {
         color: var(--font-black);
         margin-top: 30px;
         margin-bottom: 10px;
+        text-align: center;
     }    
     .team-bottomtext {        
         font-size: 16px;
         line-height: 1.19;               
         letter-spacing: 0.03em;
         color: var(--font-grey);
+        padding-bottom: 30px;
+        text-align: center;
     }
         /* ---------TEAM---------- */
         /* ---------FOOTER---------- */
@@ -249,14 +295,31 @@ body {
         line-height: 1.62;
         letter-spacing: 0.03em;
         color: var(--font-black);
-        cursor: pointer;
+        cursor: pointer;                  
+        background: #F5F4FA;
+        border-radius: 4px;
+        
     }
     .infobar-buttons {
         margin-bottom: 34px;
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+        padding-top: 94px;
+
     }
              
         /* ---------INFOBAR---------- */
         /* ---------PROJECTS---------- */
+    .projects-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+                
+    }
+    .projects-item {
+        width: calc((100% - 60) / 3);
+    }    
        
     .projects-toptext {
         font-weight: 700;
@@ -266,6 +329,7 @@ body {
         color: var(--font-black);
         margin-top: 20px;
         margin-bottom: 4px;
+        text-align: center;
     }
     
     .projects-bottomtext {        
@@ -274,6 +338,7 @@ body {
         letter-spacing: 0.03em;        
         color: var(--font-grey);
         padding-bottom: 20px;
+        text-align: center;
     }
     /* ---------PROJECTS---------- */
 
