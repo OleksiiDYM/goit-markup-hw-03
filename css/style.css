@@ -202,6 +202,10 @@ body {
     }
         /* ---------INFO---------- */
         /* ---------TEAM---------- */
+        .team {
+            padding-top: 94px;
+            padding-bottom: 94px;
+        }
     .team-list {
         display: flex;
         gap: 30px;
@@ -215,8 +219,7 @@ body {
         color: var(--font-black);
         margin-bottom: 50px;
         text-align: center;
-        padding-top: 94px;
-                
+                        
     }     
      
     .team-toptext {
@@ -225,8 +228,6 @@ body {
         line-height: 1.19;             
         letter-spacing: 0.03em;
         color: var(--font-black);
-        margin-top: 30px;
-        margin-bottom: 10px;
         text-align: center;
     }    
     .team-bottomtext {        
@@ -234,8 +235,11 @@ body {
         line-height: 1.19;               
         letter-spacing: 0.03em;
         color: var(--font-grey);
-        padding-bottom: 94px;
         text-align: center;
+    }
+    .team1 {
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
         /* ---------TEAM---------- */
         /* ---------FOOTER---------- */
@@ -255,7 +259,6 @@ body {
         line-height: 1.19;
         letter-spacing: 0.03em;
          color: #FFFFFF;
-         margin-bottom: 20px;
         }
     .footer {
         background-color: #2F303A;
@@ -274,9 +277,7 @@ body {
         font-size: 14px;
         line-height: 1.71;            
         letter-spacing: 0.03em;        
-        color: rgba(255, 255, 255, 0.6);
-        margin-top: 9px;
-        margin-bottom: 9px;        
+        color: rgba(255, 255, 255, 0.6);                       
     }
     
     .footer-tel {        
@@ -284,6 +285,13 @@ body {
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
+    }
+    .ftr-logo {
+        margin-bottom: 20px;
+    }
+    .footer-item {
+        margin-top: 9px;
+        margin-bottom: 9px;
     }
         /* ---------FOOTER---------- */
         /* ---------INFOBAR---------- */
@@ -301,6 +309,10 @@ body {
         cursor: pointer;                  
         background: #F5F4FA;
         border-radius: 4px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-right: 25px;
+        padding-left: 25px;
         
     }
     .infobar-buttons {
@@ -308,6 +320,10 @@ body {
         display: flex;
         justify-content: center;
         gap: 8px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-right: 25px;
+        padding-left: 25px;
         
     }
              
@@ -335,25 +351,20 @@ body {
         letter-spacing: 0.06em;        
         color: var(--font-black);
         margin-bottom: 4px;
-        border-right: 1px solid #EEEEEE;
-        border-left: 1px solid #EEEEEE;
-        border-top: 1px solid #EEEEEE;
-        padding-top: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
+        
+        
     }
     
     .projects-bottomtext {        
         font-size: 16px;
         line-height: 1.88;               
         letter-spacing: 0.03em;        
-        color: var(--font-grey);
-        padding-bottom: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
-        border-bottom: 1px solid #EEEEEE;
-        border-left: 1px solid #EEEEEE;
-        border-right: 1px solid #EEEEEE;
+        color: var(--font-grey);        
+        
+    }
+    .project1 {
+        padding: 20px 20px 20px 20px;
+        border: 1px solid #EEEEEE;
     }
     /* ---------PROJECTS---------- */
 
