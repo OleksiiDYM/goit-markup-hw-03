@@ -34,7 +34,7 @@ body {
         text-decoration: none;
     }
     .container {
-        width: 1170px;
+        width: 1200px;
         padding-left: 15px;
         padding-right: 15px;
         margin: 0 auto;
@@ -43,7 +43,7 @@ body {
     .header {
         padding-bottom:25px;
         padding-top: 24px;
-        border-bottom: 1px solid #757575;
+        border-bottom: 1px solid #EEEEEE;
     }
     .header-navigation {
         display: flex;
@@ -156,7 +156,7 @@ body {
         /* ---------HERO---------- */
         /* ---------HERO2--------- */
         .hero2 {
-            padding-top: 54px;
+            padding-top: 94px;
         
         }
         .hero2-list {
@@ -215,6 +215,7 @@ body {
         color: var(--font-black);
         margin-bottom: 50px;
         text-align: center;
+        padding-top: 94px;
                 
     }     
      
@@ -233,7 +234,7 @@ body {
         line-height: 1.19;               
         letter-spacing: 0.03em;
         color: var(--font-grey);
-        padding-bottom: 30px;
+        padding-bottom: 94px;
         text-align: center;
     }
         /* ---------TEAM---------- */
@@ -267,6 +268,7 @@ body {
         letter-spacing: 0.03em;    
         line-height: 1.71;       
         color: #FFFFFF;
+        margin-top: 20px;
     }    
     .footer-email {        
         font-size: 14px;
@@ -302,21 +304,24 @@ body {
         
     }
     .infobar-buttons {
-        margin-bottom: 34px;
+        margin-bottom: 50px;
         display: flex;
         justify-content: center;
         gap: 8px;
-        padding-top: 94px;
-
+        
     }
              
         /* ---------INFOBAR---------- */
         /* ---------PROJECTS---------- */
+    .projects {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
     .projects-list {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
-        
+        gap: 30px;
+               
                 
     }
     .projects-item {
@@ -329,9 +334,13 @@ body {
         line-height: 2;               
         letter-spacing: 0.06em;        
         color: var(--font-black);
-        margin-top: 20px;
         margin-bottom: 4px;
-        text-align: center;
+        border-right: 1px solid #EEEEEE;
+        border-left: 1px solid #EEEEEE;
+        border-top: 1px solid #EEEEEE;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     
     .projects-bottomtext {        
@@ -340,8 +349,11 @@ body {
         letter-spacing: 0.03em;        
         color: var(--font-grey);
         padding-bottom: 20px;
-        text-align: center;
-        border-bottom: 1px solid #757575;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-bottom: 1px solid #EEEEEE;
+        border-left: 1px solid #EEEEEE;
+        border-right: 1px solid #EEEEEE;
     }
     /* ---------PROJECTS---------- */
 
