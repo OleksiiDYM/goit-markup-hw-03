@@ -205,7 +205,7 @@ body {
     .team-list {
         display: flex;
         gap: 30px;
-        justify-content: flex-end 
+        justify-content: flex-end; 
     }           
     .team-maintext {
         font-weight: 700;
