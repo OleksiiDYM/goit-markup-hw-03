@@ -34,7 +34,7 @@ body {
         text-decoration: none;
     }
     .container {
-        width: 1170px;
+        width: 1200px;
         padding-left: 15px;
         padding-right: 15px;
         outline: 2px solid red;
@@ -120,11 +120,11 @@ body {
         text-transform: uppercase;        
         color: #FFFFFF;
         margin-bottom: 30px;
+        margin-right: auto;
+        margin-left: auto;
         max-width: 696px;
-        display: block;
-        margin: 0 auto;
-        margin-bottom: 30px;
-                      
+        text-align: center;        
+                    
         }
         
         /* ---------HERO---------- */
@@ -273,6 +273,7 @@ body {
         line-height: 1.88;               
         letter-spacing: 0.03em;        
         color: var(--font-grey);
+        padding-bottom: 20px;
     }
     /* ---------PROJECTS---------- */
 
