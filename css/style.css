@@ -117,6 +117,10 @@ body {
         
         .hero, .hero-btn {
         background-color: #2F303A;
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero-bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
         display: block;
         margin: 0px auto;
         }
@@ -229,6 +233,7 @@ body {
         letter-spacing: 0.03em;
         color: var(--font-black);
         text-align: center;
+        margin-bottom: 10px;
     }    
     .team-bottomtext {        
         font-size: 16px;
@@ -238,8 +243,25 @@ body {
         text-align: center;
     }
     .team1 {
-        margin-top: 30px;
-        margin-bottom: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .soc-link {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color: tomato;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 16px;
+        padding-bottom: 30px;
+    }
+    .soc-list {
+        display: flex;
+        align-items: center;
+        padding: 12px 12px 12px 12px;
+        gap: 10px;
     }
         /* ---------TEAM---------- */
         /* ---------FOOTER---------- */
@@ -320,11 +342,7 @@ body {
         display: flex;
         justify-content: center;
         gap: 8px;
-        padding-top: 6px;
-        padding-bottom: 6px;
-        padding-right: 25px;
-        padding-left: 25px;
-        
+                
     }
              
         /* ---------INFOBAR---------- */
