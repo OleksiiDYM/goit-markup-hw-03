@@ -254,14 +254,14 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-top: 16px;
-        padding-bottom: 30px;
     }
     .soc-list {
         display: flex;
         align-items: center;
-        padding: 12px 12px 12px 12px;
+        padding-top: 16px;
+        padding-bottom: 30px;
         gap: 10px;
+        justify-content: center;
     }
         /* ---------TEAM---------- */
         /* ---------FOOTER---------- */
